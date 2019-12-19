@@ -243,7 +243,7 @@ B3: Để kiểm tra xem nó hoạt động hay không, chạy câu lệnh
 
 B4: Sửa lỗi coredns
 
-	kubectl apply -f &quot;https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d 		&#39;\n&#39;)&quot;
+	kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
 
 B5: Cài đặt CALICO pod network
 
